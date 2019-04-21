@@ -1,3 +1,5 @@
+![alt text](https://github.com/ltanedo/UB-Breakers-Website/blob/develop/Example.png?raw=true)
+
 # node-js-getting-started
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
