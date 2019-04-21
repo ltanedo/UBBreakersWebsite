@@ -1,10 +1,12 @@
 ![alt text](https://github.com/ltanedo/UB-Breakers-Website/blob/develop/Example.png?raw=true)
 
-# UB Breakers Website
+# UB Breakdance Student Association Website (Jun-Aug 2018)
 
-A website to promote UB Breakers, a club from the student association's hobby counicl of the University at Buffalo.
+Learned basics of web development by making a hosted website for the University’s Breakdance Club.  Website made with Node JS framework and hosted on Heroku. 
 
-This application was created as a Node.js app using [Express 4](http://expressjs.com/) and deployed on Heroku.
+-	Used Responsive UI and Design using Bootstrap 4 Framework
+-	Applied Docker app to cut load increasing server load speed by %200
+-	Implemented html form to submit email to club’s master list
 
 ## Running Locally
 
