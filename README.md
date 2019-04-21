@@ -7,6 +7,7 @@ Learned basics of web development by making a hosted website for the Universityâ
 -	Implemented html form to submit email to clubâ€™s master list
 
 ![alt text](https://github.com/ltanedo/UB-Breakers-Website/blob/develop/Example.png?raw=true)
+![alt text](https://github.com/ltanedo/UB-Breakers-Website/blob/develop/Screen%20Shot%202019-04-21%20at%207.27.53%20PM.png?raw=true)
 
 ## Running Locally
 
