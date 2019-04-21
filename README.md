@@ -1,10 +1,10 @@
 ![alt text](https://github.com/ltanedo/UB-Breakers-Website/blob/develop/Example.png?raw=true)
 
-# node-js-getting-started
+# UB Breakers Website
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+A website to promote UB Breakers, a club from the student association's hobby counicl of the University at Buffalo.
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+This application was created as a Node.js app using [Express 4](http://expressjs.com/) and deployed on Heroku.
 
 ## Running Locally
 
@@ -29,13 +29,3 @@ $ heroku open
 or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-## Documentation
-
-For more information about using Node.js on Heroku, see these Dev Center articles:
-
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
