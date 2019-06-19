@@ -3,7 +3,7 @@
 Learned basics of web development by making a hosted website for the University’s Breakdance Club.  Website made with Node JS framework and hosted on Heroku. 
 
 -	Used Responsive UI and Design using Bootstrap 4 Framework
--	Applied Docker app to cut load increasing server load speed by %200
+-	Hosted NodeJS web app on Heroku for streamline management
 -	Implemented html form to submit email to club’s master list
 
 ![alt text](https://github.com/ltanedo/UB-Breakers-Website/blob/develop/Example.png?raw=true)
