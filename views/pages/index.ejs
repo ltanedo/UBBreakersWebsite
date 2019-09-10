@@ -1,93 +1,354 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <% include ../partials/header.ejs %>
+    <% include ../partials/main_header.ejs %>
     <title>UBBD Home</title>
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="/pages/home">UBBD</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/pages/index">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/pages/join">Join <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <!-- <a class="nav-link" href="#">Videos</a> -->
-          </li>
-          <li class="nav-item   dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Contact
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/pages/top4">Top 4</a>
-              <a class="dropdown-item" href="/pages/scroll">Side Hoes</a>
-              <!-- <a class="dropdown-item" href="#">Community</a> -->
+    <body>
+    
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#carouselExampleIndicators">UBBD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#carouselExampleIndicators">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Team">Team<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Highlights">Highlights <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/join">Join <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- <div class="container-fluid" id="Home">
+          <section class="row no-gutter align-items-center">
+              <div class="col-lg-12 text-center p-0 d-flex align-items-center">
+                  <img class="img-fluid position-relative mx-auto" src="images/cover.png" alt="">
+                   <h3 class="w-100 position-absolute my-auto">This is also<br>available on your mobile.</h3> 
+                  <div class="w-100 position-absolute my-auto">
+                    <h1 class="w-100" style="color: aliceblue">Breaking Boundaries!</h1>
+                    <p class="w-100 " style="color: aliceblue">Established in 2004 by alumni JR. Abrams, the breakdance club has been 
+                    spreading hip hop culture throughout the university and buffalo communities to further share peace and love.</p>
+                  </div>
+                  
+              </div>
+          </section>
+      </div> -->
+      
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="col-lg-12 text-center p-0 d-flex align-items-center">
+              <img class="img-fluid position-relative mx-auto" src="/images/one.jpg" alt="">
+              <div class="w-100 position-absolute my-auto">
+                <h1 class="w-100" style="color: aliceblue" style="font-size: 200%;">Forging Foundations!</h1>
+                <p class="w-100 " style="color: aliceblue">Established in 2004 by alumni JR. Abrams, the breakdance club has been 
+                spreading hip hop culture throughout the university and buffalo communities to further share peace and love.</p>
+              </div>
             </div>
-          </li>
-        </ul>
+          </div>
+          <div class="carousel-item">
+            <div class="col-lg-12 text-center p-0 d-flex align-items-center">
+              <img class="img-fluid position-relative mx-auto" src="/images/two.jpg" alt="">
+              <div class="w-100 position-absolute my-auto">
+                <h1 class="w-100" style="color: aliceblue" >Breaking Boundaries!</h1>
+                <p class="w-100 " style="color: aliceblue">Breakdancing is the marriage between art and sport.  Athletic performance and 
+                artistic innovation are always at oods to create something original.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-lg-12 text-center p-0 d-flex align-items-center">
+              <img class="img-fluid position-relative mx-auto" src="/images/three.jpg" alt="">
+              <div class="w-100 position-absolute my-auto">
+                <h1 class="w-100" style="color: aliceblue">Community Involvement!</h1>
+                <p class="w-100 " style="color: aliceblue">Our club is a hub for artists and dancers from within the University as well as 
+                the entire upstate region including Canada.  Be one with the scene!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </nav>
-
-    <img src="/images/everyone.jpg" class="img-fluid" style="width: 100%;">
-
-    <!-- <div class="container">
-          <div class="alert alert-info text-center" role="alert">
-            To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs" class="alert-link">Getting Started with Node on Heroku</a> tutorial.
-    </div>  -->
-
-  <div class="table-responsive">
-      <table class="table table-dark">
-          <thead>
-            <tr>
-              <th scope="col"></th>
-              <th scope="col">Sunday</th>
-              <th scope="col">Monday</th>
-              <th scope="col">Tuesday</th>
-              <th scope="col">Wednesday</th>
-              <th scope="col">Thursday</th>
-              <th scope="col">Friday</th>
-              <th scope="col">Saturday</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Time</th>
-                <td>Unof.</td>
-                <td>4-6pm</td>
-                <td>NA</td>
-                <td>10-11:30pm</td>
-                <td>NA</td>
-                <td>6:30-8pm</td>
-                <td>NA</td>
-            </tr>
-          </tbody>
-        </table>
-  </div>
-
-  <!-- <div class="container-fluid" > -->
-          <!-- <div class="col-md-6"> -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cnxb9bEu4Sk"></iframe>
+    
+      <div class="table-responsive table-responsive-sm" id="Team">
+          <table class="table table-dark">
+              <caption style="caption-side: top;">PRACTICE SCHEDULE</caption>
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Sunday</th>
+                  <th scope="col">Monday</th>
+                  <th scope="col">Tuesday</th>
+                  <th scope="col">Wednesday</th>
+                  <th scope="col">Thursday</th>
+                  <th scope="col">Friday</th>
+                  <th scope="col">Saturday</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Time</th>
+                    <td>Unof.</td>
+                    <td>4-6pm</td>
+                    <td>NA</td>
+                    <td>10-11:30pm</td>
+                    <td>NA</td>
+                    <td>6:30-8pm</td>
+                    <td>NA</td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+  
+    <!-- <div class="container-fluid" > -->
+            <!-- <div class="col-md-6"> -->
+              <!-- <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cnxb9bEu4Sk"></iframe>
+              </div> -->
+            <!-- </div> -->
+    <!-- </div> -->
+    
+    <section id="team" style="padding-bottom: 10%; padding-top: 5%">
+      <div class="container my-3 py-5 text-center"> 
+        <div class="row mb-5">
+          <div class="col">
+            <h1>Our Team</h1>
+            <p class="mt-3" style="padding-bottom: 10%">We are determined to spread the hip hop culture and love to the UB Community.  
+            Contact us if you have any questions!</p>
+            
+            <div class="row">
+              
+              <div class="col-lg-3 col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                  <img src="/images/mikee.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                  <h3>Lloyd Tanedo</h3>
+                  <h5>President</h5>
+                  <p>Starting breakdancing in 2014, Lloyd has some experience under his belt and is willing to share his knowlege to 
+                    the UB Community
+                  </p>
+                  <p>
+                      Phone: (516)-499-0129<br>
+                      Email: lloydtan@buffalo.edu
+                  </p>
+                  <div class="d-flex flex-row justify-content-center">
+                    <div class="p-4">
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </div>
+                    <div class="p-4">
+                      <a href="">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-3 col-md-6">
+                  <div class="card">
+                    <div class="card-body">
+                    <img src="/images/mikee.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                    <h3>Chris Deguilla</h3>
+                    <h5>Vice President</h5>
+                    <p>This guy is the jock of the club! As a physical therapy major, he can advise you on the best workout tips for 
+                      your dance moves!
+                    </p>
+                    <p>
+                        Phone: (516)-552-2332<br>
+                        Email: chrisde@buffalo.edu
+                    </p>
+                    <div class="d-flex flex-row justify-content-center">
+                      <div class="p-4">
+                        <a href="#">
+                          <i class="fa fa-facebook"></i>
+                        </a>
+                      </div>
+                      <div class="p-4">
+                        <a href="#">
+                          <i class="fa fa-twitter"></i>
+                        </a>
+                      </div>
+                      <div class="p-4">
+                        <a href="">
+                          <i class="fa fa-instagram"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+  
+                <div class="col-lg-3 col-md-6">
+                    <div class="card">
+                      <div class="card-body">
+                      <img src="/images/mikee.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                      <h3>Jeff Presto</h3>
+                      <h5>Treasurer</h5>
+                      <p>As our club auditor, Jeff has all the details down more than you can get down on your dance.  Ask him anything
+                        about BBOY history!
+                      </p>
+                      <p>
+                        Phone: (516)-668-8233<br>
+                        Email: prestoj@buffalo.edu
+                      </p>
+                      <div class="d-flex flex-row justify-content-center">
+                        <div class="p-4">
+                          <a href="#">
+                            <i class="fa fa-facebook"></i>
+                          </a>
+                        </div>
+                        <div class="p-4">
+                          <a href="#">
+                            <i class="fa fa-twitter"></i>
+                          </a>
+                        </div>
+                        <div class="p-4">
+                          <a href="">
+                            <i class="fa fa-instagram"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+  
+                  <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <div class="card-body">
+                        <img src="/images/mikee.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                        <h3>Carlo Escober</h3>
+                        <h5>Secretary</h5>
+                        <p>Although he's new to breakdancing only spending one year in the club, this guy's passion propelled his dance 
+                          foward!
+                        </p>
+                        <p>
+                          Phone: (516)-502-8333<br>
+                          Email: escob@buffalo.edu
+                        </p>
+                        <div class="d-flex flex-row justify-content-center">
+                          <div class="p-4">
+                            <a href="#">
+                              <i class="fa fa-facebook"></i>
+                            </a>
+                          </div>
+                          <div class="p-4">
+                            <a href="#">
+                              <i class="fa fa-twitter"></i>
+                            </a>
+                          </div>
+                          <div class="p-4">
+                            <a href="">
+                              <i class="fa fa-instagram"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
             </div>
-          <!-- </div> -->
-  <!-- </div> -->
-
-  <hr>
-
-
-      <div class="container text-center">
-         (c) UBBD 2018
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <div class="jumbotron" style="text-align: center; background-color:#144372;"id="Highlights">
+        <h1 style='text-align: center; color: white;'>Club Showcases</h1>      
+        <p style="color: white;">Our members show off their yearly progress in our end of the year videos.  You too can be in the next one! </p>
+      </div>
+  
+    <div class="container" style="">
+      <div class="row">
+        <div class="col-sm">
+          <section id="team">
+            <div class="container my-3 py-5 text-center"> 
+              <div class="row mb-5">
+                <div class="col">
+                  <h1>2018 Highlights</h1>
+                  <p class="mt-3" style="padding-bottom: 10%">Rethink what you're capable of.  
+                    While some of our members are experienced bboys/bgirls, most of the people in this video
+                    started with no experience!
+                  </p>
+                </div>
+              </div>
+          </section>
+  
+        </div>
+        <div class="col-sm">
+           <!-- <div class="col-md-6"> -->
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cPNmlqwJQHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></iframe>
+              </div>
+            <!-- </div> -->
+        </div>
+        
       </div>
     </div>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <section id="team">
+            <div class="container my-3 py-5 text-center"> 
+              <div class="row mb-5">
+                <div class="col">
+                  <h1>2017 Highlights</h1>
+                  <p class="mt-3" style="padding-bottom: 10%">Break your bondaries!  
+                    Most of the breakers in this video are alumni who have the joined the breakdance club since 
+                    freshman year.  They show you what's possible!
+                  </p>
+                </div>
+              </div>
+          </section>
+  
+        </div>
+        <div class="col-sm">
+           <!-- <div class="col-md-6"> -->
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cnxb9bEu4Sk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></iframe>
+              </div>
+            <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  
+    <hr>
+        <div class="container text-center" style="padding-bottom: 1%">
+           (c) UBBD 2018
+        </div>
+      </div>
 
     <% include ../partials/js_extentions.ejs %>
 
