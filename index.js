@@ -24,12 +24,12 @@ app.get('/', function(req, res) {               //initial page
 app.get('/pages/index', function(req, res) {    //index.ejs
     res.render('pages/index') 
 })
-app.get('/pages/top4', function(req, res) {     //top4.ejs
-    res.render('pages/top4') 
-})
-app.get('/pages/second3', function(req, res) {  //second3.ejs
-    res.render('pages/second3')
-})
+// app.get('/pages/top4', function(req, res) {     //top4.ejs
+//     res.render('pages/top4') 
+// })
+// app.get('/pages/second3', function(req, res) {  //second3.ejs
+//     res.render('pages/second3')
+// })
 app.get('/pages/join', function(req, res) {  //join.ejs
     res.render('pages/join')
     console.log("\n\nhello\n\n")
@@ -39,7 +39,7 @@ app.get('/pages/scroll', function(req, res) {  //second3.ejs
 })
 
 app.get('/pages/home', function(req, res) {               //initial page
-    res.render('pages/home')
+    res.render('pages/index')
 })
 
 app.post('/user_create', (req, res) => {
