@@ -1,4 +1,4 @@
-# UB Breakdance Student Association Website (Jun 2018 - Current)
+# UB Student Association - Breakdance Club Website (Jun 2018 - Current)
 
 Built and deployed website [www.ubbreakers.gq](www.ubbreakers.gq) and [www.joinbreaks.gq](www.joinbreaks.gq) to host club information and quickly add emails of new members to master list.
 
